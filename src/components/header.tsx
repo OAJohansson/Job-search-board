@@ -29,7 +29,7 @@ export function Header() {
     <header className="border-b bg-white px-6 py-3">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <div className="flex items-center gap-8">
-          <h1 className="text-xl font-bold tracking-tight">Job Hunt OS</h1>
+          <h1 className="text-xl font-bold tracking-tight">Job Board</h1>
           <nav className="flex items-center gap-1">
             {navItems.map((item) => {
               const isActive =
